@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - plots/**         # copies your iframe files
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+execute:
+  echo: false
